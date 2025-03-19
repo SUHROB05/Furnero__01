@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Card.scss";
+import "./card.scss";
 
 import ShopCardImg from "../../assets/imgs/shop/card-img1.svg";
 

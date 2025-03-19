@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.contact {
+    max-width: 1440px;
+    width: 1440px;
+    margin: 0 auto;
+    font-family: "Pooppins", sans-serif;
+}
+
+
+
+
+
+
+.contact__item {
+    width: 100%;
+    height: 315px;
+    // border: 1px solid black;
+    background-image: url(../../assets/imgs/shop/Rectangle1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact__item-text {
+        margin: 0 auto;
+
+        .item-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 77px;
+                height: 77px;
+            }
+        }
+
+        h2 {
+            font-size: 48px;
+            font-weight: 700;
+            color: #000;
+        }
+
+        p {
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            color: #000;
+            word-spacing: 7px;
+
+            span {
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.contact__main {
+    margin-top: 100px;
+    padding: 0 190px;
+
+    .contact__text {
+        text-align: center;
+        line-height: 54px;
+
+        h2 {
+            font-size: 36px;
+            font-weight: 600;
+            color: #000;
+        }
+
+        p {
+            font-size: 16px;
+            color: #9F9F9F;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+    .contact__contayner {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        .firma__contact {
+            // margin-top: 50px;
+            padding: 45px;
+            width: 400px;
+
+            .firma__item {
+                display: flex;
+                gap: 30px;
+                margin-top: 50px;
+
+                .item-img {
+
+                    .item-icon {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+
+                .item-text {
+                    margin-top: 20px;
+
+                    h3 {
+                        font-size: 24px;
+                        font-weight: 500;
+                        color: #000;
+                    }
+
+                    p {
+                        width: 212px;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+
+        .contact__form {
+            width: 635px;
+            display: flex;
+            justify-content: center;
+
+            form {
+                width: 531px;
+                margin-top: 50px;
+                // line-height: 70px;
+
+                label {
+                    width: 100%;
+                    line-height: 50px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    display: block;
+                    margin-top: 40px;
+
+                    input,
+                    textarea {
+                        width: 100%;
+                        outline: none;
+                        padding: 20px;
+                        border: 1px solid #9F9F9F;
+                        border-radius: 10px;
+                    }
+
+                    textarea {
+                        padding: 25px 30px;
+                        height: 100px;
+                    }
+                }
+
+                button {
+                    padding: 20px 100px;
+                    border: none;
+                    border-radius: 10px;
+                    background-color: #B88E2F;
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 400px;
+                    margin-bottom: 100px;
+                }
+            }
+        }
+    }
+}

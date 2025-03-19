@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+footer {
+    max-width: 1440px;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 48px 100px 48px 100px;
+    font-family: "Poppins", serif;
+    // border: 1px solid black;
+
+    .yakun {
+        border-top: 2px solid rgba(0, 0, 0, 0.259);
+        padding-top: 48px;
+        margin-top: 48px;
+    }
+
+    .footer__contayner {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        margin-right: 100px;
+
+        h4 {
+            font-size: 16px;
+            font-weight: 500;
+            color: #9F9F9F;
+        }
+
+        .card-item1 {
+            width: 290px;
+
+            h2 {
+                font-size: 28px;
+                font-weight: 700;
+                font-family: "Montserrat", sans-serif;
+            }
+
+            p {
+                margin-top: 50px;
+                color: #9F9F9F;
+                font-size: 16px;
+            }
+        }
+
+        .card-item2 {
+            text-align: center;
+            width: 250px;
+
+            ul {
+                margin-top: 50px;
+                line-height: 50px;
+
+                a {
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: black;
+                }
+            }
+
+        }
+
+        .card-item3 {
+            text-align: start;
+        }
+
+        .card-item4 {
+            width: 300px;
+
+            .footer-input {
+                margin-top: 50px;
+
+                input {
+                    padding: 3px 0;
+                    border: none;
+                    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+                    outline: none;
+                }
+                
+
+                button {
+                    margin-left: 15px;
+                    padding: 3px 2px;
+                    border-radius: 3px;
+                    border: none;
+                    background-color: #9f9f9f00;
+                    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+                    &:hover{
+                        border-color: blue;
+                        background-color: rgba(0, 0, 255, 0.349);
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
